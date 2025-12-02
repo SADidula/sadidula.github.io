@@ -1,0 +1,32 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build project
+        run: npm run build
+
+      - name: Deploy build to target branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.BUILD_TOKEN }}
+          publish_dir: ./dist          # change if your build output folder is different
+          publish_branch: gh-pages        # target branch where built files are committed
+          force_orphan: true           # optional: creates a clean branch for build output
