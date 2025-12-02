@@ -1,8 +1,8 @@
 <template>
-  <div class="d-flex">
+  <div class="d-flex vh-100">
     <!-- Welcome Popup Overlay -->
     <transition name="fade">
-      <div v-if="showWelcome" class="welcome-overlay p-lg-5 p-2">
+      <div v-if="showWelcome" class="welcome-overlay p-lg-5 p-2" style="overflow: scroll;">
         <div class="welcome-popup p-lg-5 p-3">
           <div class="col-12 col-lg-10 mx-auto text-left">
             <div class="row text-center">
