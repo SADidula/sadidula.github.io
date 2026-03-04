@@ -1,4 +1,4 @@
-const BASE_URL = import.meta.env.VITE_API_BASE || 'https://sadidula-github-io.vercel.app/api/portfolio/v1/api/portfolio/v1'
+const BASE_URL = import.meta.env.VITE_API_BASE || 'https://sadidula-github-io.vercel.app/api/portfolio/v1'
 
 async function request(path, { method = 'GET', headers = {}, body, isForm = false } = {}) {
     const h = {
