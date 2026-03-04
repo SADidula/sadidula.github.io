@@ -41,6 +41,22 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+
+from fastapi import Request
+from fastapi.responses import JSONResponse
+
+@app.options("/{rest_of_path:path}")
+async def preflight_handler(request: Request, rest_of_path: str):
+    return JSONResponse(
+        content={},
+        headers={
+            "Access-Control-Allow-Origin": "https://sadidula.github.io",
+            "Access-Control-Allow-Methods": "GET, POST, DELETE, OPTIONS",
+            "Access-Control-Allow-Headers": "Content-Type",
+        }
+    )
+
+
 # <------- SESSION STORE ------->
 # Stores session data in memory for the lifetime of the server process.
 # Structure: { session_id: { "visitor_name": str | None, "history": [...], "background_info": str } }
