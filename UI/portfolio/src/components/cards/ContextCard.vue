@@ -71,11 +71,11 @@ const emit = defineEmits(['toggle'])
                 <Masters v-else-if="card.type === 'edu_msc'" :card="card"/>
 
                 <!-- Generic fallback -->
-                <template v-else>
+                <!-- <template v-else>
                     <div class="p-4">
                         <p class="text-secondary">{{ card.title }}</p>
                     </div>
-                </template>
+                </template> -->
 
             </div>
         </div>
