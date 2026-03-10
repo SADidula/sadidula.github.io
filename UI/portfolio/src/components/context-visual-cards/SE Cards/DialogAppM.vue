@@ -1,5 +1,5 @@
 <template>
-    <div class="p-4">
+    <div class="p-4 m-3">
         <span class="text-start">
             <p>
                 <span class="fw-bold">

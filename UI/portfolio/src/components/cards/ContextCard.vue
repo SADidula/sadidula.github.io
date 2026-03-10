@@ -12,6 +12,8 @@ import DressUp from '../context-visual-cards/GE Cards/DressUp.vue';
 import DropNFill from '../context-visual-cards/GE Cards/DropNFill.vue';
 import GangvsGang from '../context-visual-cards/GE Cards/GangvsGang.vue';
 import PhoneUnlock from '../context-visual-cards/GE Cards/PhoneUnlock.vue';
+import Bachelor from '../context-visual-cards/Personal Cards/Bachelor.vue';
+import Masters from '../context-visual-cards/Personal Cards/Masters.vue';
 
 const props = defineProps({
     card: {
@@ -50,7 +52,7 @@ const emit = defineEmits(['toggle'])
                 <IntroContext v-if="card.type === 'intro'" :card="card" />
 
                 <!-- Full-stack cards -->
-                <SEIntro v-else-if="card.type === 'se_intro'" :card="card" />
+                <SEIntro v-else-if="card.type === 'se_intro'" :card="card" /> 
                 <DialogWeather v-else-if="card.type === 'se_dialog_weather'" :card="card" />
                 <DialogAppM v-else-if="card.type === 'se_dialog_app_maker'" :card="card" />
 
@@ -65,7 +67,8 @@ const emit = defineEmits(['toggle'])
                 <PhoneUnlock v-else-if="card.type === 'ge_phone_unlock'" :card="card" />
 
                 <!-- Personal Cards -->
-
+                <Bachelor v-else-if="card.type === 'edu_bsc'" :card="card"/>
+                <Masters v-else-if="card.type === 'edu_msc'" :card="card"/>
 
                 <!-- Generic fallback -->
                 <template v-else>

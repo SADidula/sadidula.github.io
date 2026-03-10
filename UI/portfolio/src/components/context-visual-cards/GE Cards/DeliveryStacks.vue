@@ -1,7 +1,7 @@
 <template>
-    <div class="p-4">
+    <div class="p-4 m-3">
         <div class="row">
-            <div class="col-6">
+            <div class="col-12">
                 <h3 class="fw-bold pb-3">📦 Delivery Stacks</h3>
                 <p>
                     <span class="fw-bold">
@@ -67,7 +67,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-6">
+            <div class="col-12">
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="w-100 mx-auto position-relative" style="max-width:800px; aspect-ratio:4/5;">

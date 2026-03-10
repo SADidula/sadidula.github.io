@@ -72,7 +72,7 @@ onBeforeUnmount(() => {
 })
 
 // ─── skill unlock wiring ──────────────────────────────────────────────────────
-const skillTreeRef    = ref(null)
+const skillTreeRef = ref(null)
 const contentPanelRef = ref(null)
 
 /**
@@ -114,11 +114,13 @@ function onSkillsUnlocked({ nodeIds, cards }) {
 }
 
 @keyframes pip {
+
     0%,
     100% {
         opacity: 1;
         transform: scale(1);
     }
+
     50% {
         opacity: 0.35;
         transform: scale(0.8);

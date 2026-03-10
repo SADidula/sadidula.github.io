@@ -1,5 +1,5 @@
 <template>
-    <div class="p-4">
+    <div class="p-4 m-3">
         <span class="text-start">
             <p class="fw-bold">
                 As a Full Stack Developer at Dialog Ideamart, Dialog Axiata’s IoT and innovation-driven department-I had
