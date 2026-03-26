@@ -97,23 +97,13 @@ export const SKILL_MAP = [
 
     // ── SPECIALISATIONS ───────────────────────────────────────────────────
     {
-        nodeId: 'fullstack',
-        card: { type: 'spec_fullstack', title: 'Full-Stack Dev', subtitle: 'End-to-end web and app development' },
-        keywords: ['full-stack', 'full stack', 'frontend', 'backend', 'web dev', 'web development', 'app development', 'end to end'],
-    },
-    {
         nodeId: 'game-eng',
         card: { type: 'ge_intro', title: 'Game Engineering', subtitle: 'Hyper-casual mobile games & interactive experiences' },
         keywords: ['game engineer', 'game engineering', 'game dev', 'game development', 'mobile game', 'hyper-casual', 'unity project', 'unreal project'],
     },
     {
-        nodeId: 'graphics',
-        card: { type: 'spec_graphics', title: 'Graphics Dev', subtitle: 'Rendering, visual systems, game visuals' },
-        keywords: ['graphics', 'rendering', 'visual systems', 'shader', 'opengl', 'computer graphics', 'game visuals', 'graphics development'],
-    },
-    {
         nodeId: 'freelance',
-        card: { type: 'spec_freelance', title: 'Freelancer', subtitle: 'Active freelancer in web and app development' },
+        card: null,
         keywords: ['freelance', 'freelancer', 'client', 'contract', 'hired', 'self-employed', 'freelance work', 'clients'],
     },
 
@@ -137,12 +127,12 @@ export const SKILL_MAP = [
     // ── PROJECTS & PORTFOLIO ──────────────────────────────────────────────
     {
         nodeId: 'portfolio',
-        card: { type: 'project_portfolio', title: 'sadidula.github.io', subtitle: 'Personal portfolio — hub of projects, skills and identity' },
+        card: null,
         keywords: ['portfolio', 'github.io', 'sadidula', 'personal site', 'personal website', 'this website', 'your site'],
     },
     {
         nodeId: 'nursery',
-        card: { type: 'project_nursery', title: 'Paradise Valley Nursery', subtitle: 'Real client project — paradisevalleynursery.com.au' },
+        card: null,
         keywords: ['paradise valley', 'nursery', 'plant nursery', 'paradisevalleynursery', 'client website', 'nursery website'],
     },
 
@@ -198,12 +188,12 @@ export const SKILL_MAP = [
     // ── FRONTIER ──────────────────────────────────────────────────────────
     {
         nodeId: 'quantum',
-        card: { type: 'frontier_quantum', title: 'Quantum Computing', subtitle: 'Current obsession — quantum engineering and computing' },
+        card: null,
         keywords: ['quantum', 'quantum computing', 'quantum engineering', 'quantum mechanics', 'qubits', 'quantum tech'],
     },
     {
         nodeId: 'robotics',
-        card: { type: 'frontier_robotics', title: 'Robotics', subtitle: 'New frontier — exploring robotics and engineering curiosity' },
+        card: null,
         keywords: ['robotics', 'robot', 'robots', 'robotic engineering', 'automation', 'mechanical engineering', 'hardware'],
     },
 ]

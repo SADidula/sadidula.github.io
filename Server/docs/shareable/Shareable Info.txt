@@ -1,36 +1,28 @@
+#ABOUT ME
 All of my friends and family call me Kas.
 I'm 26 years old as I was born in 1999.
-
-I have completed my bachelor of science in computer science majoring games and computer graphic development pathway.
-I did my bachelor's in University of Westminster London.
-
-I have completed my master of information technology (MIT) in professional computing majoring software development pathway.
-I did my master's in Swinburne University of technology, Victoria, Australia.
-
 I am originally from Sri Lanka and I am currently based in Melbourne, Australia.
-
-I am a postgraduate student and also a freelancer. I have experience in full-stack development and game engineering.
-
-My programming languages include Java, JavaScript, HTML, CSS, PHP, C#, C++, Vue, Python, React, and Ruby on Rails.
-
-I have worked with game engines including Unity, Unreal Engine, and I have started learning Godot.
-
 I am an ambivert — sometimes very loud and noisy, and other times very quiet where no one would notice me.
-
 I would describe myself as ambitious, competitive, and a leader.
-
 My core drive and motivation is the thirst to learn as many things as possible.
-
-I love solo development — I prefer working independently with full ownership and creative control. I also love to teach people even though I feel I am not great at it.
-
-I have lived in Sri Lanka and Australia, and I studied in London. I have also travelled to many countries.
-
-I play competitive FPS games including Apex Legends, Battlefield, and Rainbow Six Siege.
-
-I hit the gym regularly.
-
-I am currently learning and very interested in quantum computing, quantum engineering, and robotics.
-
+I have lived in Sri Lanka and Australia. I have also travelled to many countries such as Thailand, Singapore, Malaysia.
 My personal portfolio is at sadidula.github.io.
 
+#EDUCATION BACKGROUND
+I have completed my bachelor of science in computer science majoring games and computer graphic development pathway.
+I did my bachelor's in University of Westminster London.
+I have completed my master of information technology (MIT) in professional computing majoring software development pathway.
+I did my master's in Swinburne University of technology, Victoria, Australia.
+I am currently learning and very interested in quantum computing, quantum engineering, and robotics.
+
+#WORK BACKGROUND
+I am a postgraduate student and also a freelancer. I have experience in full-stack development and game engineering.
+My programming languages include Java, JavaScript, HTML, CSS, PHP, C#, C++, Vue, Python, React, and Ruby on Rails.
+I have worked with game engines including Unity, Unreal Engine, and I have started learning Godot.
+I love solo development — I prefer working independently with full ownership and creative control. I also love to teach people even though I feel I am not great at it.
 I recently built a website for a client — a plant nursery called Paradise Valley, at paradisevalleynursery.com.au.
+
+
+#HOBBIES
+I play competitive FPS games including Apex Legends, Battlefield, and Rainbow Six Siege, I'm actively playing The Division 2 these days.
+I hit the gym regularly.

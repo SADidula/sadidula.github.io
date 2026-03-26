@@ -17,76 +17,9 @@ const cards = ref([
         type: 'intro',
         unlocked: true,         // always visible
     },
-
-    // ── IDENTITY ──
-    // {
-    //     id: 2,
-    //     title: 'Sri Lanka',
-    //     subtitle: 'Born in Sri Lanka in 1999 — cultural roots that shaped a driven mindset',
-    //     expanded: false,
-    //     type: 'identity_origin',
-    //     unlocked: false,
-    // },
-    // {
-    //     id: 3,
-    //     title: '26 y/o',
-    //     subtitle: 'Born 1999 — two degrees, real products shipped, just getting started',
-    //     expanded: false,
-    //     type: 'identity_age',
-    //     unlocked: false,
-    // },
-    // {
-    //     id: 4,
-    //     title: 'Melbourne, AU',
-    //     subtitle: 'Currently based in Melbourne — studying, building, and freelancing',
-    //     expanded: false,
-    //     type: 'identity_location',
-    //     unlocked: false,
-    // },
-    // {
-    //     id: 5,
-    //     title: 'Ambivert',
-    //     subtitle: 'Loud one moment, invisible the next — thrives in solo deep work',
-    //     expanded: false,
-    //     type: 'identity_personality',
-    //     unlocked: false,
-    // },
-    // {
-    //     id: 6,
-    //     title: 'Thirst to Learn',
-    //     subtitle: 'Core drive — learn as much as possible about as many things as possible',
-    //     expanded: false,
-    //     type: 'identity_drive',
-    //     unlocked: false,
-    // },
-    // {
-    //     id: 7,
-    //     title: 'Leader',
-    //     subtitle: 'Ambitious, competitive, natural leader who loves to teach',
-    //     expanded: false,
-    //     type: 'identity_mindset',
-    //     unlocked: false,
-    // },
-    // {
-    //     id: 8,
-    //     title: 'Solo Dev',
-    //     subtitle: 'Prefers full ownership and creative control — independent by nature',
-    //     expanded: false,
-    //     type: 'identity_solo',
-    //     unlocked: false,
-    // },
-    // {
-    //     id: 9,
-    //     title: 'Traveller',
-    //     subtitle: 'Sri Lanka → London → Melbourne and many countries in between',
-    //     expanded: false,
-    //     type: 'identity_traveller',
-    //     unlocked: false,
-    // },
-
     // ── EDUCATION ──
     {
-        id: 10,
+        id: 2,
         title: 'BSc Westminster',
         subtitle: 'BSc Computer Science — Games & Computer Graphic Development, London',
         expanded: false,
@@ -94,93 +27,33 @@ const cards = ref([
         unlocked: false,
     },
     {
-        id: 11,
+        id: 3,
         title: 'MSc Swinburne',
         subtitle: 'Master of IT Professional Computing — AI, Quantum, Cloud, Software Dev',
         expanded: false,
         type: 'edu_msc',
         unlocked: false,
     },
-
-    // ── TECH STACK ──
-    // {
-    //     id: 12,
-    //     title: 'Languages',
-    //     subtitle: 'Java, JavaScript, PHP, C#, C++, Python, Ruby, HTML, CSS',
-    //     expanded: false,
-    //     type: 'tech_languages',
-    //     unlocked: false,
-    // },
-    // {
-    //     id: 13,
-    //     title: 'Frameworks',
-    //     subtitle: 'Vue, React, Rails — frontend to full-stack across the whole web layer',
-    //     expanded: false,
-    //     type: 'tech_frameworks',
-    //     unlocked: false,
-    // },
-    // {
-    //     id: 14,
-    //     title: 'Game Engines',
-    //     subtitle: 'Unity, Unreal Engine, and getting started with Godot',
-    //     expanded: false,
-    //     type: 'tech_game_engines',
-    //     unlocked: false,
-    // },
-    // {
-    //     id: 15,
-    //     title: 'Cloud & AI',
-    //     subtitle: 'Cloud computing and AI studied at postgrad level, applied across projects',
-    //     expanded: false,
-    //     type: 'tech_cloud_ai',
-    //     unlocked: false,
-    // },
-
-    // ── SPECIALISATIONS ──
-    // {
-    //     id: 16,
-    //     title: 'Software Engineer',
-    //     subtitle: 'End-to-end web and app development — frontend, backend, deployment',
-    //     expanded: false,
-    //     type: 'se_intro',
-    //     unlocked: false,
-    // },
+    // -- WORK EXPERIENCE ──
     {
-        id: 17,
+        id: 4,
         title: 'Game Engineering',
         subtitle: 'Deep expertise in game engineering — the specialisation he is most proud of',
         expanded: false,
         type: 'ge_intro',
         unlocked: false,
     },
-    // {
-    //     id: 18,
-    //     title: 'Graphics Dev',
-    //     subtitle: 'Computer graphics development — rendering, visual systems, game visuals',
-    //     expanded: false,
-    //     type: 'spec_graphics',
-    //     unlocked: false,
-    // },
     {
-        id: 19,
-        title: 'Freelancer',
-        subtitle: 'Active freelancer specialising in web and app development',
-        expanded: false,
-        type: 'spec_freelance',
-        unlocked: false,
-    },
-
-    // ── SOFTWARE ENGINEERING ──
-    {
-        id: 20,
+        id: 5,
         title: 'Software Engineering',
         subtitle: 'Enterprise systems, APIs and automation platforms',
         expanded: false,
         type: 'se_intro',
         unlocked: false,
     },
+    // -- PROJECTS ──
     {
-        id: 21,
+        id: 6,
         title: 'Dialog Weather App',
         subtitle: 'Fully functional weather forecasting website',
         expanded: false,
@@ -188,53 +61,15 @@ const cards = ref([
         unlocked: false,
     },
     {
-        id: 22,
+        id: 7,
         title: 'Dialog App Maker',
         subtitle: 'Fully functional automation platform to build apps',
         expanded: false,
         type: 'se_dialog_app_maker',
         unlocked: false,
     },
-
-    // ── PROJECTS & PORTFOLIO ──
     {
-        id: 23,
-        title: 'sadidula.github.io',
-        subtitle: 'Personal portfolio — hub of projects, skills, and identity online',
-        expanded: false,
-        type: 'project_portfolio',
-        unlocked: false,
-    },
-    {
-        id: 24,
-        title: 'Paradise Valley Nursery',
-        subtitle: 'Real client project — paradisevalleynursery.com.au',
-        expanded: false,
-        type: 'project_nursery',
-        unlocked: false,
-    },
-
-    // ── LIFESTYLE ──
-    {
-        id: 25,
-        title: 'Competitive FPS',
-        subtitle: 'Apex Legends, Battlefield, Rainbow Six Siege — precision and strategy',
-        expanded: false,
-        type: 'lifestyle_fps',
-        unlocked: false,
-    },
-    {
-        id: 26,
-        title: 'Gym',
-        subtitle: 'Hits the gym regularly — discipline outside code mirrors discipline inside it',
-        expanded: false,
-        type: 'lifestyle_gym',
-        unlocked: false,
-    },
-
-    // ── GAME PROJECTS ──
-    {
-        id: 27,
+        id: 8,
         title: 'Rope Gang',
         subtitle: 'Hyper-casual 3D puzzle-action mobile game with 2M+ downloads',
         expanded: false,
@@ -242,7 +77,7 @@ const cards = ref([
         unlocked: false,
     },
     {
-        id: 28,
+        id: 9,
         title: 'Scribble Love',
         subtitle: 'Casual puzzle game with unique physics based drawing interactions',
         expanded: false,
@@ -250,7 +85,7 @@ const cards = ref([
         unlocked: false,
     },
     {
-        id: 29,
+        id: 10,
         title: 'Dress Up',
         subtitle: 'Arcade-style mobile game designed primarily for a female audience',
         expanded: false,
@@ -258,7 +93,7 @@ const cards = ref([
         unlocked: false,
     },
     {
-        id: 30,
+        id: 11,
         title: 'Gang vs Gang',
         subtitle: 'Arcade-style crowd-control game inspired by the Rope Gang mechanics',
         expanded: false,
@@ -266,7 +101,7 @@ const cards = ref([
         unlocked: false,
     },
     {
-        id: 31,
+        id: 12,
         title: 'Delivery Stacks',
         subtitle: 'Hyper-casual mobile game with fun physics-based challenges',
         expanded: false,
@@ -274,7 +109,7 @@ const cards = ref([
         unlocked: false,
     },
     {
-        id: 32,
+        id: 13,
         title: 'Drop N Fill',
         subtitle: 'Hyper-casual puzzle game with intuitive controls and playful visual feedback',
         expanded: false,
@@ -282,32 +117,13 @@ const cards = ref([
         unlocked: false,
     },
     {
-        id: 33,
+        id: 14,
         title: 'Phone Unlock',
         subtitle: 'Puzzle-style mobile game with satisfying unlocking mechanics and rewards',
         expanded: false,
         type: 'ge_phone_unlock',
         unlocked: false,
     },
-
-    // ── FRONTIER ──
-    {
-        id: 34,
-        title: 'Quantum Computing',
-        subtitle: 'Current obsession — quantum engineering studied at MSc, actively diving deeper',
-        expanded: false,
-        type: 'frontier_quantum',
-        unlocked: false,
-    },
-    {
-        id: 35,
-        title: 'Robotics',
-        subtitle: 'New frontier — exploring robotics as part of a broader engineering curiosity',
-        expanded: false,
-        type: 'frontier_robotics',
-        unlocked: false,
-    },
-
 ])
 
 let nextId = cards.value.length + 1
@@ -337,7 +153,9 @@ function toggleCard(id) {
  * @param {{ type: string, title: string, subtitle: string }} cardDef
  */
 function unlockCard(cardDef) {
+    console.log(cardDef);
     const existing = cards.value.find(c => c.type === cardDef.type)
+    console.log('Existing card:', existing);
 
     if (existing) {
         if (!existing.unlocked) {
@@ -347,23 +165,24 @@ function unlockCard(cardDef) {
             setTimeout(() => { existing.justUnlocked = false }, 3000)
             setHighlight(`🔓 Unlocked: ${existing.title}`)
         }
-    } else {
-        // Dynamically add a brand-new card (for any type not in the default list)
-        cards.value.unshift({
-            id: nextId++,
-            title: cardDef.title,
-            subtitle: cardDef.subtitle,
-            type: cardDef.type,
-            expanded: true,
-            unlocked: true,
-            justUnlocked: true,
-        })
-        setHighlight(`🔓 Unlocked: ${cardDef.title}`)
-        setTimeout(() => {
-            const c = cards.value.find(cd => cd.type === cardDef.type)
-            if (c) c.justUnlocked = false
-        }, 3000)
-    }
+    } 
+    // else {
+    //     // Dynamically add a brand-new card (for any type not in the default list)
+    //     cards.value.unshift({
+    //         id: nextId++,
+    //         title: cardDef.title,
+    //         subtitle: cardDef.subtitle,
+    //         type: cardDef.type,
+    //         expanded: true,
+    //         unlocked: true,
+    //         justUnlocked: true,
+    //     })
+    //     setHighlight(`🔓 Unlocked: ${cardDef.title}`)
+    //     setTimeout(() => {
+    //         const c = cards.value.find(cd => cd.type === cardDef.type)
+    //         if (c) c.justUnlocked = false
+    //     }, 3000)
+    // }
 }
 
 // ─── expose to parent ────────────────────────────────────────────────────────
