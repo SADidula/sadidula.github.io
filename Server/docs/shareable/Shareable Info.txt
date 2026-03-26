@@ -21,7 +21,8 @@ My programming languages include Java, JavaScript, HTML, CSS, PHP, C#, C++, Vue,
 I have worked with game engines including Unity, Unreal Engine, and I have started learning Godot.
 I love solo development — I prefer working independently with full ownership and creative control. I also love to teach people even though I feel I am not great at it.
 I recently built a website for a client — a plant nursery called Paradise Valley, at paradisevalleynursery.com.au.
-
+I have done 18 solo games and 11 collaborative games during my time in spacetimer studio as a game engineer.
+I have done a 2 million+ game called rope gang.
 
 #HOBBIES
 I play competitive FPS games including Apex Legends, Battlefield, and Rainbow Six Siege, I'm actively playing The Division 2 these days.
