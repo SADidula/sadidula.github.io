@@ -3,13 +3,13 @@
 
 <head>
   <meta charset="UTF-8">
-  <!-- <link rel="icon" href="/favicon.ico"> -->
+  <link id="favicon" rel="icon" href="/assets/K-DJ8M4iCC.gif" type="image/gif">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kas's Digital Portfolio</title>
-  <script type="module" crossorigin src="/assets/index-CPxl7VIX.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-B-kxEZnG.css">
+  <script type="module" crossorigin src="/assets/index-C80t_7jb.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-4FshXZNN.css">
 </head>
 
 <body>
@@ -17,6 +17,14 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
+  <script>
+    const frames = ['src/assets/favicon/K.gif', 'src/assets/favicon/A.gif', 'src/assets/favicon/S.gif'];
+    let current = 0;
+    setInterval(() => {
+      current = (current + 1) % frames.length;
+      document.getElementById('favicon').href = frames[current];
+    }, 800); // swap every 800ms, adjust to taste
+  </script>
 </body>
 
 </html>
